@@ -151,6 +151,39 @@ a.button:hover {
 
 /* History Ends */
 
+/* Team Starts */
+
+#home-team{
+  width: 100%;
+  color: #fff;
+}
+
+.home-team-textbox{
+  line-height: 1.5;
+  color: #fff;
+  padding: 90px 120px;
+  background: #232323;
+  outline: 5px solid #ff0000;
+  outline-offset: -68px;
+  position: relative;
+  text-align: center;
+
+}
+
+.home-team-textbox h1 {
+    top: 1.3em;
+    left: 50%; 
+    width: 16em;
+    margin: 0;
+    position: absolute;
+    font-size: 2em;
+    transform: translateX(-50%);
+    background: #232323;
+    font-weight: 700;
+}
+
+/* Team Ends */
+
 /* Products Start */
 
 #home-products{
