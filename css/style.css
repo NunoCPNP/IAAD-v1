@@ -28,8 +28,8 @@ main {
 }
 
 #header-img {
-  padding: 20px;
-  max-width: 200px;
+  padding: 10px;
+  max-width: 250px;
   height: auto;
 }
 
@@ -83,7 +83,7 @@ nav ul a:hover {
   width: 100%;
   min-height: 400px;
   padding: 150px;
-  background: url('https://i.imgur.com/r630ISQ.jpg');
+  background: url('../images/IMG_8702.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
