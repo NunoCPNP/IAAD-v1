@@ -74,6 +74,11 @@ nav ul a:hover {
   color: red;
 }
 
+#special {
+  border-bottom: 2px solid red;
+  padding: 5 5 ;
+}
+
 /* Header End */
 
 /* Home-hero Start*/
@@ -153,33 +158,34 @@ a.button:hover {
 
 /* Team Starts */
 
-#home-team{
+#team {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 35px;
   width: 100%;
-  color: #fff;
-}
-
-.home-team-textbox{
-  line-height: 1.5;
-  color: #fff;
-  padding: 90px 120px;
+  height: auto;
+  padding: 75px;
   background: #232323;
-  outline: 5px solid #ff0000;
-  outline-offset: -68px;
-  position: relative;
-  text-align: center;
-
+  justify-content: center;
 }
 
-.home-team-textbox h1 {
-    top: 1.3em;
-    left: 50%; 
-    width: 16em;
-    margin: 0;
-    position: absolute;
-    font-size: 2em;
-    transform: translateX(-50%);
-    background: #232323;
-    font-weight: 700;
+#anossaequipa p{
+  padding-bottom: 0px;
+}
+
+
+
+div.claudia,
+div.nuno,
+div.joao {
+  width: 310px;
+  height: 485px;
+  background: #262626;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  box-shadow: 5px 5px 20px rgba(0,0,0,.1);
 }
 
 /* Team Ends */
@@ -205,7 +211,7 @@ div.img-container{
   border-radius: 5px;
   font-size: 20px;
   letter-spacing: 3px;
-  box-shadow: 5px 5px 20px rgba(0,0,0,.3);
+  box-shadow: 5px 5px 20px rgba(0,0,0,.3);/
 }
 
 div.img-container a.pLink,
@@ -326,11 +332,9 @@ div.img-container a.pTitle:hover{
   line-height: .6;
   padding: 0;
   height: 70px;
-  margin-left: -390px;
+  margin-left: -350px;
   letter-spacing: 2px;
   font-size: 1.8em;
-    
-
 }
 
 .contact-us form{
