@@ -158,10 +158,10 @@ a.button:hover {
 
 /* Team Starts */
 
-#team {
+#home-team{
   margin: auto;
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 30% 30% 30%;
   grid-column-gap: 35px;
   width: 100%;
   height: auto;
@@ -170,22 +170,68 @@ a.button:hover {
   justify-content: center;
 }
 
-#anossaequipa p{
-  padding-bottom: 0px;
-}
-
-
-
-div.claudia,
-div.nuno,
-div.joao {
-  width: 310px;
+div.team-container{
+  width: 280px;
   height: 485px;
-  background: #262626;
+  background: #292929;
   border-radius: 5px;
   font-size: 20px;
   letter-spacing: 3px;
-  box-shadow: 5px 5px 20px rgba(0,0,0,.1);
+  box-shadow: 5px 5px 20px rgba(0,0,0,.1);/
+}
+
+div.team-container a.pLink,
+div.team-container p{
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: .7;
+}
+
+div.team-container hr {
+  border-color: #ff0000;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 9em;
+}
+
+div.team-container a{
+  color: white;
+  font-weight: 700;
+  letter-spacing: .2em;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: all .5s ease;
+}
+
+div.team-container a:hover{
+  color: red;
+}
+
+.team-products .team-img {
+  max-height: 175px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+div.team-container a.team-pLink {
+  color: white;
+  background: none;
+}
+
+div.team-container a.team-pLink  span {
+  color: #292929;
+}
+
+div.team-container a.team-pTitle {
+  color: red;
+  letter-spacing: 2px;
+}
+
+div.team-container a.team-pLink:hover,
+div.team-container a.team-pTitle:hover{
+  color: #333;
 }
 
 /* Team Ends */
