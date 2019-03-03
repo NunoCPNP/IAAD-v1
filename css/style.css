@@ -177,7 +177,7 @@ div.team-container{
   border-radius: 5px;
   font-size: 20px;
   letter-spacing: 3px;
-  box-shadow: 5px 5px 20px rgba(0,0,0,.1);/
+  box-shadow: 5px 5px 20px rgba(0,0,0,.1);
 }
 
 div.team-container a.pLink,
@@ -257,7 +257,7 @@ div.img-container{
   border-radius: 5px;
   font-size: 20px;
   letter-spacing: 3px;
-  box-shadow: 5px 5px 20px rgba(0,0,0,.3);/
+  box-shadow: 5px 5px 20px rgba(0,0,0,.3);
 }
 
 div.img-container a.pLink,
@@ -307,6 +307,10 @@ div.img-container a.pTitle {
 div.img-container a.pLink:hover,
 div.img-container a.pTitle:hover{
   color: #333;
+}
+
+div.img-container .pLink span {
+  color: white;
 }
 
 /* ==================== */
@@ -489,7 +493,7 @@ div.media-logo:last-child{
     padding: 75px;
     /* background: #fff; */
     justify-content: center;
-  }/
+  }
   
   .videowrapper{
     padding-bottom: 50%;
