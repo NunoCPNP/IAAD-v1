@@ -475,9 +475,21 @@ div.media-logo:last-child{
     width: 100%;
     height: auto;
     padding: 75px;
-    background: #fff;
+    /* background: #fff; */
     justify-content: center;
   }
+
+  #home-team {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 65px;
+    width: 100%;
+    height: auto;
+    padding: 75px;
+    /* background: #fff; */
+    justify-content: center;
+  }/
   
   .videowrapper{
     padding-bottom: 50%;
