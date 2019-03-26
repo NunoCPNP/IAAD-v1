@@ -1,212 +1,569 @@
-<!doctype <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Its All About Dogs - Escola de Treino e Comportamento Canino</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>It's All About Dogs - Escola de Treino e Comportamento Canino</title>
+  </head>
 
-<body>
-    <main>
-        <header id="header">
-            <div class="header-content">
-                <img id="header-img" src="images/iaad_sample.png" alt="Its All About Dogs">
-                <nav id="nav-bar">
-                    <ul>
-                        <li><a class="nav-link" href="#">HOME</a></li>
-                        <li><a class="nav-link" href="#quem-somos">QUEM SOMOS</a></li>
-                        <li><a class="nav-link" href="#home-products">SERVIÇOS</a></li>
-                        <li><a class="nav-link" href="#home-contact-us" id="special">CONTACTOS</a></li>
-                    </ul>
-                </nav>                
-            
-        </header>
+  <body>
+    <header class="container">
+      <!-- Navigation -->
+      <nav class="navbar container navbar-expand-lg fixed-top nav-menu">
+        <a href="#" class="navbar-brand text-light text-uppercase"
+          ><img src="./images/iaad_sample.png"
+        /></a>
+        <button
+          class="navbar-toggler nav-button"
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNavbar"
+        >
+          <div class="bg-light line1"></div>
+          <div class="bg-light line2"></div>
+          <div class="bg-light line3"></div>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end text-uppercase"
+          id="myNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link m-2 menu-item">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#quem-somos" class="nav-link m-2 menu-item"
+                >Quem Somos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#servicos" class="nav-link m-2 menu-item">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contactos" class="nav-link m-2 menu-item">Contactos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link m-2 menu-item curso" data-toggle="modal" data-target="#exampleModalLong5">Curso para Treinadores</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- End of Navigation -->
 
-        <section id="home-hero" class="home-hero container">
-            <h1 class="title">Treino e Comportamento<span>baseado em métodos positivos<span></h1>
-            <a href="#home-products" class="button button-accent">SABER MAIS</a>
-        </section></div>
-        
-        <section id="home-history" class="home-history container"><div id="quem-somos"></div>
-            <div class="home-history-textbox">
-                <h1>A IT'S ALL ABOUT DOGS</h1>
-                <p>Esta empresa nasceu do desejo de fornecer aos donos de cães de companhia um apoio em termos de treino, informação e
-                resolução de problemas comportamentais tendo como base os últimos estudos na ciência do comportamento canino.
-                <br><br>    
-                O treino e abordagem a problemas comportamentais são baseados em métodos positivos e livres de aversivos ou castigos
-                físicos. A It’s All About Dogs promove uma relação saudável e de cooperação entre o cão e a sua família humana. Seja
-                que raça for o seu cão, idade, proveniência ou tamanho, o método aplicado poderá ser usado tanto por uma criança como
-                por um idoso e todos em casa poderão relacionar-se com o cão da mesma forma.
-                <br><br>
-                As sessões de treino são informativas, o seu cão trabalhará com gosto e o seu relacionamento será um baseado na
-                confiança e respeito mútuo. Se procura oferecer um treino ao seu cão que respeito o mesmo e que o ensine a si a melhor
-                forma de se relacionar com o seu amigo de 4 patas sem castigos nem punições então a Escola It’s All About Dogs é para
-                si. </p>      
-            </div>
-        </section>
+      <!-- Banner -->
+      <div class="text-light text-center banner">
+        <h1 class="banner-heading">
+          Treino e Comportamento
+        </h1>
+        <p class="banner-par">baseado em métodos positivos</p>
+        <a
+          href="#servicos"
+          class="btn btn-lg btn-outline-light banner-btn mt-3"
+          role="button"
+          >Saber Mais</a
+        >
+      </div>
+      <!-- End of Banner -->
+    </header>
+    <!-- End of Header-->
 
-        <section id="home-team" class="team-products container">
-            <div class="team-container">
-                <img class="team-img" src="images/52556917_405165976924038_8060735938994634752_n.jpg" alt="Claudia Estanislau">
-                <h4><a class="team-pTitle" href="">Claudia Estanislau</a></h4>
-                <p><a class="team-pLink">Fundadora</a></p>
-                <p><a class="team-pLink">Treinadora</a></p>
-                <p><a class="team-pLink">Especialista em</a></p>
-                <p><a class="team-pLink">Comportamento</a></p>
-                <hr>
-                <a id="btn-treino" href="#home-products">Curriculo</a>
-            </div>
-        
-            <div class="team-container">
-                <img class="team-img" src="images/Untitled-2.jpg" alt="Joao Topete">
-                <h4><a class="team-pTitle">João Topete</a></h4>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <p><a class="team-pLink">Treinador</a></p>
-                <p><a class="team-pLink">Especialista em</a></p>
-                <p><a class="team-pLink">Comportamento</a></p>
-                <hr>
-                <a href="#" id="teste" target="_blank">Curriculo</a>
-            </div>
-        
-            <div class="team-container">
-                <img class="team-img" src="images/Untitled-3.jpg" alt="Nuno Pereira">
-                <h4><a class="team-pTitle" href="">Nuno Pereira</a></h4>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <p><a class="team-pLink">Treinador</a></p>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <hr>
-                <a href="#" target="_blank">Curriculo</a>
-            </div>
+    <!-- History -->
+    <section id="quem-somos" class="container pt-5 special">
+      <div class="row text-center">
+        <h1 class="special-fix">A IT'S ALL ABOUT DOGS</h1>
+        <p class="pt-5">
+          Esta empresa nasceu do desejo de fornecer aos donos de cães de
+          companhia um apoio em termos de treino, informação e resolução de
+          problemas comportamentais tendo como base os últimos estudos na
+          ciência do comportamento canino. <br /><br />
+          O treino e abordagem a problemas comportamentais são baseados em
+          métodos positivos e livres de aversivos ou castigos físicos. A It’s
+          All About Dogs promove uma relação saudável e de cooperação entre o
+          cão e a sua família humana. Seja que raça for o seu cão, idade,
+          proveniência ou tamanho, o método aplicado poderá ser usado tanto por
+          uma criança como por um idoso e todos em casa poderão relacionar-se
+          com o cão da mesma forma.
+          <br /><br />
+          As sessões de treino são informativas, o seu cão trabalhará com gosto
+          e o seu relacionamento será um baseado na confiança e respeito mútuo.
+          Se procura oferecer um treino ao seu cão que respeito o mesmo e que o
+          ensine a si a melhor forma de se relacionar com o seu amigo de 4 patas
+          sem castigos nem punições então a Escola It’s All About Dogs é para
+          si.
+        </p>
+      </div>
+    </section>
+    <!-- End of History -->
 
-            <div class="team-container">
-                <img class="team-img" src="images/Untitled-1.jpg" alt="Vanessa Fernandes">
-                <h4><a class="team-pTitle" href="">Vanessa Fernandes</a></h4>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <p><a class="team-pLink">Treinadora</a></p>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <p><a class="team-pLink"><span>_</span></a></p>
-                <hr>
-                <a href="#" target="_blank">Curriculo</a>
+    <!-- Team -->
+    <section id="team" class="container">
+      <div class="col text-center text-white">
+        <h4 class="pb-4 no-span">
+          A equipa IAAD
+      </div>
+      <div class="row text-center img-fluid">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              class="cardimg car-img-top"
+              src="./images/52556917_405165976924038_8060735938994634752_n.jpg"
+              alt="Claudia Estanislau"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Claudia Estanislau</strong></h5>
+              <p class="card-text">
+                Fundadora<br />
+                Treinadora<br />
+                Especialista em Comportamento Canino
+              </p>
+              <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLong">Curriculo</a>
             </div>
-        
-        </section>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              class="cardimg"
+              src="./images/Untitled-2.jpg"
+              alt="Joao Topete"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>João Topete</strong></h5>
+              <p class="card-text">
+                Treinador<br />Especialista em Comportamento Canino
+              </p>
+              <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLong2">Curriculo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              class="cardimg"
+              src="./images/Untitled-3.jpg"
+              alt="Nuno Pereira"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Nuno Pereira</strong></h5>
+              <p class="card-text">
+                Treinador
+              </p>
+              <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLong3">Curriculo</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img
+              class="cardimg"
+              src="./images/Untitled-1.jpg"
+              alt="Vanessa Fernandes"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title"><strong>Vanessa Fernandes</strong></h5>
+              <p class="card-text">
+                Treinadora
+              </p>
+              <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLong4"
+                >Curriculo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Team-->
 
-        <section id="home-products" class="products container">
-            <div class="img-container">
-                <img class="img" src="images/treino.jpg" alt="Treino de Caes">
-                <h4><a class="pTitle" href="">TREINO</a></h4>
-                <p><a class="pLink">Aulas para Cachorros</a></p>
-                <p><a class="pLink">Aulas de Obediencia</a></p>
-                <p><a class="pLink">FreeStyle</a></p>
-                <p><a class="pLink"><span>_</span></a></p>
-                <hr>
-                <a id="btn-treino" href="#home-products">Saber Mais</a>
-            </div>
-        
-            <div class="img-container">
-                <img class="img" src="images/comp.jpg" alt="Modificaçao Comportamental">
-                <h4><a class="pTitle">COMPORTAMENTO</a></h4>
-                <p><a class="pLink">Comportamentos Agressivos</a></p>
-                <p><a class="pLink">Reactividade</a></p>
-                <p><a class="pLink">Medos e Fobias</a></p>
-                <p><a class="pLink">Ansiedade por Separação</p>
-                <hr>
-                <a href="#" id="teste" target="_blank">Saber Mais</a>
-            </div>
-        
-            <div class="img-container">
-                <img class="img" src="images/pets.jpg" alt="Pet Sitting">
-                <h4><a class="pTitle" href="">PET-SITTING</a></h4>
-                <p><a class="pLink">Serviço de Pet-Sitting</a></p>
-                <p><a class="pLink">em ambiente familiar</a></p>
-                <p><a class="pLink">sem recurso a boxes</a></p>
-                <p><a class="pLink">ou canis</a></p>
-                <hr>
-                <a href="#" target="_blank">Saber Mais</a>
-            </div>
-            
-            <div class="img-container">
-                <img class="img" src="images/forma.jpg" alt="Formação">
-                <h4><a class="pTitle">FORMAÇÃO</a></h4>
-                <p><a class="pLink">Curso de Treinador</a></p>
-                <p><a class="pLink">Seminarios</a></p>
-                <p><a class="pLink">Workshops</a></p>
-                <p><a class="pLink">Webinarios</a></p>
-                <hr>
-                <a href="#" target="_blank">Saber Mais</a>
-            </div>
-        </section>
-        
-        <section id="video-container" class="videowrapper container">
-            <iframe id="video" src="https://www.youtube.com/embed/tisqV9Fsz8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </iframe>
-        </section>
-        <br><br>
+    <!-- Sevicos -->
+    <section id="servicos" class="container">
+      <div class="col text-center text-white">
+        <h4 class="pt-3 pb-3 no-span">
+          A IAAD actualmente ofereçe os seguintes serviços
+        </h4>
+      </div>
+    </div>
+    <div class="row text-center img-fluid">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card2">
+          <img
+            class="cardimg car-img-top"
+            src="./images/treino.jpg"
+            alt="Treino"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title"><strong>Treino</strong></h5>
+            <p class="card-text">
+              Aulas para Cachorros<br />
+              Aulas de Obediencia<br />
+              FreeStyle
+            </p>
+            <a href="#" class="btn btn-block btn-outline-light mt-auto">Saber Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card2">
+          <img
+            class="cardimg car-img-top"
+            src="./images/comp.jpg"
+            alt="Comportamento"
+          />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>Comportamento</strong></h5>
+          <p class="card-text">
+            Comportamentos Agressivos<br />
+            Reactividade<br />
+            Medos e Fobias<br />
+            Ansiedade por separação
+          </p>
+          <a href="#" class="btn btn-block btn-outline-light mt-auto">Saber Mais</a>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card2">
+          <img
+            class="cardimg car-img-top"
+            src="./images/pets.jpg"
+            alt="Pet Sitting"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title"><strong>Pet-Sitting</strong></h5>
+            <p class="card-text">
+              Serviços de Pet-Sitting<br />
+              em ambiente familiar<br />
+              sem recurso a boxes <br />
+              ou canis
+            </p>
+            <a href="#" class="btn btn-block btn-outline-light mt-auto">Saber Mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card card2">
+          <img
+            class="cardimg car-img-top"
+            src="./images/forma.jpg"
+            alt="Formação"
+          />
+        <div class="card-body d-flex flex-column">
+          <h5 class="card-title"><strong>Formação</strong></h5>
+          <p class="card-text">
+            Curso de Treinador<br />
+            Seminarios<br />
+            Worskshops<br />
+            Webinarios
+          </p>
+          <a href="#" class="btn btn-block btn-outline-light mt-auto"">Saber Mais</a>
+        </div>
+      </div>
+    </div>
 
-        <section id="home-contact-us" class="container">
-            <h1>CONTACTE NOS</h1>
-            <div class="contact-us left">
-                <form id="form" action="send_mail.php">
-                    <input id="nome" name="first_name" type="text" placeholder="O seu nome">
-                    <input id="email" type="email" name="email_adress" placeholder="O seu E-Mail">
-                    <textarea id="mensagem" name="comments" placeholder="Mensagem"></textarea>
-                    <input id="submit" type="submit"></input>
-                </form>
-        
-                <div class="row">
-                    <div class="right">
-                        <h2>Onde estamos</h2>
-                        <p>Santa Maria da Feira, Sâo João da Madeira</p>
-                        <p>Vale de Cambra, Oliveira de Azeméis </p>
-                        <p>Espinho, Ovar, Esmoriz</p>
-                        <p>Vila Nova de Gaia, Porto, Matosinhos</p>
-                        <p>Maia, Póvoa de Varzim, Vila do Conde</p>
-                    </div>
-        
-                    <div class="right">
-                        <h2>Telefone</h2>
-                        <p>91 914 33 58</p>
-                    </div>
-        
-                    <div class="right">
-                        <h2>E-Mail</h2>
-                        <p>itsallaboutdogs@hotmail.com</p>
-                    </div>
-        
-                    <div class="right">
-                        <h2>Website</h2>
-                        <p>www.itsallaboutdogs.org</p>
-                    </div>
+    </div>
+    </section>
+    <!-- End of Servicos-->
+
+    <!-- Contactos -->
+    <section id="contactos" class="container">
+      <div class="col text-center text-white">
+        <h4 class="pt-3 pb-3 no-span">
+          Contacte-nos
+        </h4>
+      </div>
+      <div class="row pt-3 pb-5">
+        <form
+          class="col-lg-6 col-sm-12"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <div class="form-group">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="fa fa-user text-danger"></i>
                 </div>
-        </section>
-    
-        <footer>
-            <p>A IT'S ALL ABOUT DOGS NAS REDES SOCIAIS</p>
-            <div class="media-logos">
-            <a href="http://www.facebook.com/itsallaboutdogs/" target="_blank"><img src="images/fb.png" alt="Facebook"></a>
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                name="Nome"
+                placeholder="Nome e Apelido"
+                required
+              />
             </div>
-            <div>
-            <a href="https://www.youtube.com/user/claudiahoyle" target="_blank"><img src="images/yt2.png" alt="Youtube"></a>
+          </div>
+          <div class="form-group">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="fa fa-envelope text-danger"></i>
+                </div>
+              </div>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="EMail"
+                placeholder="E-Mail"
+                required
+              />
             </div>
-            <div>
-            <a href="http://www.instagram.com/claudiaiaad/" target="_blank"><img src="images/ig.png" alt="Instagram"></a>
+          </div>
+          <div class="form-group">
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="fa fa-comment text-danger"></i>
+                </div>
+              </div>
+              <textarea
+                class="form-control"
+                id="mensagem"
+                name="Mensagem"
+                placeholder="Mensagem"
+                required
+              ></textarea>
             </div>
-            <div>
-            <a href="http://www.twitter.com/CPEstanislau/" target="_blank"><img src="images/tw.png" alt="Twitter"></a>
-            </div>
-        </footer>
-        
-        <br>
-            <div class="copywright">
-                <p>It's All About Dogs © 2019 | Todos os direitos reservados</p>
-            </div>
-        <br>
+          </div>
+          <div class="text-center">
+            <input
+              type="submit"
+              value="Enviar"
+              class="btn btn-outline-danger btn-block rounded-0 py-2"
+            />
+          </div>
+        </form>
+        <div class="col-lg-6 col-sm-12 text-center"></div>
+      </div>
+    </section>
+    <!-- End of Contactos -->
+      
+    <!-- CW -->
+    <section id="cw" class="container pb-1">
+      <div class="cwBar col-md-12 text-center text-white">
+        <p>
+          Made with &nbsp;<span><i class="far fa-heart text-danger"></i></span>&nbsp; by <a href="http://www.nunopereira.dev" class="text-danger" target="_blank">Nuno Pereira</a>
+        </p>
+      </div>
+    </section>
+    <!-- End of CW -->
 
-    </main>
-</body>
+    <!-- Claudia Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">Claudia Estanislau</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+            <p>Claudia Estanislau a criadora da empresa, começou o seu interesse por cães desde  nova, fazendo voluntariado com várias instituições de recolha de animais de rua em  Portugal durante a sua adolescência, nomeadamente em S. João da Madeira, Porto e  Coimbra. Em 2004 mudou-se para Inglaterra e continuou o seu interesse por cães,  iniciando voluntariado com uma das melhores e mais bem organizações de recolha de  animais, Battersea Dog’s Home em Londres.</p>
+            <p>As suas funções dentro do voluntariado passaram do companheirismo aos variados  cães que se encontravam para adopção, para funções de sociabilização e  posteriormente aplicação de técnicas de relaxamento canino como a conhecida  massagem TTouch, treino de comandos básicos e avaliação comportamental.</p>
+            <p>Durante o seu voluntariado na Battersea Dog’s Home, Claudia Estanislau ingressou em vários  cursos de formação relacionados com sociabilização canina, treino e  comportamento, despertando assim o interesse por ingressar em mais cursos e  continuar a sua educação.</p>
+            <p>Em 2005 Claudia Estanislau foi para o Canada para um curso de formação de treinadores com a  duração de 3 meses com Ben Kersen and the Wonderdogs. Neste curso a Claudia  aprendeu técnicas de treino e resolução de problemas comportamentais caninos, deu  aulas de treino de grupo e individuais.</p>
+            <p>As técnicas aprendidas no curso no Canadá eram baseadas em punições e reforço  negativo e apesar de não conhecer nada mais, quando voltou a Inglaterra, a Claudia  começou a ler o livro “The other end of the leash” da Patricia Macconnell e “Culture Clash” da Jean Donaldson e decidiu matricular-se no instituto CASI, presidido pelo Dr. James O’Heare, no Diploma DTBC (Dog Training  and Behaviour Consulting) para aprender e aperfeiçoar técnicas e métodos baseados no reforço positivo.</p>
+            <p>Em 2006 nasce então a empresa It’s All About Dogs que teve um grande desenvolvimento em Inglaterra. A par com o trabalho  desenvolvido com RSPCA onde a Claudia Estanislau se tornou Especialista em Avaliação Canina e responsável máxima pelo Apoio ao Adoptante  a empresa ganhou reputação de um grande apoio quer a nível de treino básico mas acima de tudo na resolução de problemas  comportamentais de cães de companhia.</p>
+            <p>A Claudia é membro da APDT, da AABP (Association of Animal Behaviour Professionals)  e mais recentemente Membro internacional da PPG – Pet Professional Guild (2013).</p>
+            <p>A Claudia continua a sua formação, tendo desde a formação da sua empresa, sido oradora de diversos seminários em Portugal,  durante 1 ano e meio escreveu artigos para a revista mensal Cães e Companhia e é hoje administradora também de um curso para  treinadores.</p>
+            <p>Os objectivos principais da Its All About Dogs são fornecer serviços de acompanhamento para a educação e treino básico de cães para  viverem em harmonia com os seus companheiros humanos.</p>
+            <p>A título individual o objectivo é informar e formar donos de cães acerca das formas mais eficazes, práticas e gentis de lidar com os  cães. A Claudia tem experiência extensa em treinar e educar cães usando reforço positivo e acredita que através da informação  adequada, sociabilização apropriada e acompanhamento constante e útil pode poupar a vida de muitos cães que acabam  abandonados ou mortos por desenvolverem problemas que advêm da falta de conhecimento e acompanhamento capaz.</p>
+            <p>Para tal e desde a formação da empresa Claudia Estanislau tem vindo a desenvolver um trabalho extenso para providenciar de forma útil, fácil e  acessível a todos essa informação através da página da no Facebook da Its All About Dogs, do Fórum da Its All About Dogs, e dos  blogues “Cãosciência”, “Chamaram-me Safira” e “Diário do Cão Acorrentado”.</p>
+            <p>Neste momento encontra-se a desenvolver a sua actividade como treinadora e comportamentalista em Santa Maria da Feira, cobrindo as zonas de Santa Maria da Feira, São João da Madeira, Espinho, Vila Nova de Gaia, Porto e Matosinhos.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Claudia Modal -->
 
+    <!-- Joao Modal -->
+    <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">João Topete</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+            <p>Iniciou o seu interesse pela área aquando de uma palestra em Bragança, começando nesse momento a realizar voluntariado em canis dessa área.</p> 
+            <p>Contudo, apenas quatro anos depois, em 2012, sentiu que esta paixão poderia ir além de um simples passatempo e poderia tornar-se numa atividade profissional, ai ingressou o Curso de Treinadores do Hospital Veterinário do Porto e o SummerdogCamp da Educacão.</p> 
+            <p>Durante o tempo que se seguiu manteve a sua formação em contínua atualização, participando em vários cursos e seminários e tentando acompanhar o trabalho dos grandes nomes do treino positivo, como Ian Dunbar, Karen Prior e Dr. Aubrey Fine.</p>
+            <p>Em Outubro de 2013, foi orador nas primeiras jornadas de comportamento e treino animal da Escola Superior Agrária de Bragança. </p> 
+            <p>Em 2014, concluiu com nota de mérito o Curso de Treinadores da It’s All About dogs, após estágio em casa da Treinadora Cláudia Estanislau.</p>    
+            <p>Neste momento encontra-se a desenvolver a sua atividade como treinador e comportamentalista em Ermesinde, cobrindo as zonas de Ermesinde, Maia, Vila do Conde, Trofa, Santo Tirso e Paredes.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Joao Modal-->
+
+    <!-- Nuno Modal -->
+    <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">Nuno Pereira</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+            <p>O seu contacto com cães começou em 2008 quando realizou em conjunto com Claudia Estanislau o projecto “Cão como Nós” um website sobre a lei dos cães potencialmente perigosos.</p>
+            <p>Desde esse ano a busca de conhecimento, formação e certificação prosseguiu, sempre a par do trabalho efectuado pela IAAD e complementado pelos mentores que admira, nomeadamente na área de desporto.</p>
+            <p>Completou o Curso Presencial para Treinadores da It’s All About Dogs, frequentou vários seminários e workshops da It’s All About Dogs, workshop de Frisbee com Paco Lobo, foi assistente durante 2 anos nas aulas de cachorros em Faro com a IAAD, terminou com sucesso o curso “Animal Behaviour and Welfare” da Universidade de Edimburgo.</p>
+            <p>É actualmente treinador da It’s All About Dogs focando-se maioritariamente em Obediencia de Competição onde tem tido formação com Kamal Fernandez e Hannah Branigan.</p>
+            <p>Vive em Santa Maria da Feira na sede da IAAD com os seus cães Joel e Safira.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Nuno Modal-->
+
+    <!-- Vanessa Modal -->
+    <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">Vanessa Fernandes</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+            <p>........</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Vanessa Modal-->
+
+    <!-- CTC Modal -->
+    <div class="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title text-white" id="exampleModalLongTitle">Curso para Treinadores</h5>
+              <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-white">
+              <p><strong class="text-danger">Este curso é para quem?</strong></p>
+              <p>Este curso é para qualquer pessoa que queira iniciar-se na profissão de treino de cães e entender o comportamento dos mesmos. O curso pretende formar treinadores, adequados a iniciar a sua carreira, no treino de cães baseando-se no uso de técnicas livres de força e punição e obtendo conhecimentos baseados na ciência.</p>   
+              <p><strong class="text-danger">Como é que funciona o curso?</strong></p>   
+              <p>O curso é feito online com vertente prática via video, excepto o estágio prático que apesar de não ser obrigatório pode ser efectuado junto do treinador franchisado da IAAD geograficamente mais perto de si. Durante o curso online, os alunos têm testes práticos que devem ser completados e enviados para poderem transitar de módulo, pelo que existe uma grande vertente prática no curso.</p>    
+              <p>Os alunos também têm acesso a aulas ao vivo relativas aos diversos módulos,  irão complementar à matéria cedida no curso. De momento temos aulas a serem dadas pela Claudia Estanislau, Nuno Pereira, João Topete e Drª Joice Peruzzi.</p>    
+              <p>O aluno tem também acesso a um fórum onde pode retirar dúvidas a qualquer altura, relacionadas com a matéria do curso.</p>    
+              <p><strong class="text-danger">Quanto tempo demora o curso?</strong></p>    
+              <p>Durante o  curso tem 3 meses de tempo máximo para terminar cada modulo. Pode o fazer mais rapidamenteno tempo que quiser, não existe tempo mínimo. Se seguir os 3 meses por modulo sendo que alguns módulos são feitos em conjunto (1 e 2 são juntos assim como os modulos 8 e 9), estipulamos que demora cerca de 21 meses nó máximo a terminar o curso.</p>    
+              <p><strong class="text-danger">Qual o conteúdo do curso?</strong></p>    
+              <p>O curso está dividido em 9 módulos, sendo que cada um tem como tema principal os seguintes temas:</p>    
+              <p>MÓDULO 1 – ORIGEM E EVOLUÇÃO DO CÃO</p>  
+              <p>MÓDULO 2 – CIÊNCIA DA APRENDIZAGEM</p>  
+              <p>MÓDULO 3 – TÉCNICAS DE TREINO COM CLICKER</p>  
+              <p>MÓDULO 4 – PROBLEMAS COMPORTAMENTAIS, PREVENÇÃO E CAUSAS</p>  
+              <p>MÓDULO 5 – DOMINÂNCIA E HIERARQUIAS</p>  
+              <p>MÓDULO 6 – AGRESSÃO E RESOLUÇÃO DE PROBLEMAS COMPORTAMENTAIS</p>  
+              <p>MÓDULO 7 – O CÃO E O VETERINÁRIO</p>  
+              <p>MÓDULO 8 – DESPORTOS, CONCEITOS BÁSICOS</p>  
+              <p>MÓDULO 9 – RELACIONAMENTO COM CLIENTES O OUTRO LADO DO TREINO DE CÃES</p>  
+              <p><strong class="text-danger">Quanto tempo é o estágio?</strong></p>  
+              <p>O estágio é de 560 horas no máximo e 200 horas no mínimo, caso o aluno queira ter um diploma que indique “com estágio efectuado de x horas). O estágio pode ser efectuado conforme a disponibilidade do aluno e do treinador receptor do estagiário. O estágio pode ser feito a partir do módulo 6 (final do mesmo)</p>  
+              <p><strong class="text-danger">Onde posso estagiar?</strong></p>  
+              <p></p>  
+              <p>O estágio é efectuado junto do treinador franchisado da IAAD geograficamente mais perto do aluno. Estágios externos, não serão considerados, isto é só damos estágios a alunos do curso. O aluno estagiário é responsável pelo seu alojamento, alimentação e transporte, caso seja necessário durante o estágio.</p>  
+              <p>Para efectuar o estágio o aluno deve contactar-nos para passarmos o contacto do treinador franchisado e este terá acesso a um contrato de estágio que deverá assinar e honrar para poder estagiar com a IAAD.</p>  
+              <p><strong class="text-danger">Como é que tenho acesso à matéria?</strong></p>    
+              <p>O aluno se aceite no curso, e após a recepção do primeiro pagamento, receberá um e-mail da geral@itsallaboutdogs.org com o username e password e link para a plataforma de alunos. O aluno deverá aceder ao link registar-se com os dados fornecidos e terá acesso aos módulos à medida que vai transitando. O username e password são únicos ao indivíduo e intransmissíveis.</p>    
+              <p>Na plataforma encontrará a matéria por escrito, que é suficiente para lhe dar a informação que precisa, mas aconselhamos que veja qual a bibliografia obrigatória e comece a ler, tendo por objectivo complementar a informação dada. O objectivo será chegar no final do curso com todos os livros obrigatórios lidos. A leitura de TODO o fórum é obrigatória. Sempre que aceder a um módulo novo deve ler atentamente todos os tópicos antes de submeter testes ou avançar.</p>    
+              <p><strong class="text-danger">Como são dadas as aulas?</strong></p>    
+              <p>Todas as semanas são dadas duas aulas.</p>    
+              <p>Uma ao Domingo às 21.00 e outra às sextas-feiras às 23.00 através da plataforma de conferências webmeeting. O aluno terá acesso a um link de acesso para a conferência. O calendário das datas, módulos e temas de cada aula, é postado no fórum para que os alunos possam estar devidamente informados. O aluno deve aceder ao fórum na parte de anuncios, e verá um tópico com Calendário das aulas para o mês de X, ao aceder ao mesmo verá os dias, módulos e temas das aulas, e logo saberá quais pode assistir. Pode assistir às do seu modulo ou de módulos abaixo do seu.
+                  Os alunos deverão assistir ao máximo de aulas, possíveis. Os alunos podem assistir a aulas de módulos que já transitaram até ao final do curso.</p>    
+              <p><strong class="text-danger">Quando é que começa o curso?</strong></p>    
+              <p>Uma vez que é online, não existe data de inscrição, sendo que o os interessados se podem inscrever em qualquer altura. Devem requisitar ficha de inscrição, que será avaliada e estará sujeita a aprovação do aluno no curso. Caso este seja aprovado, recebe um mail, deverá efectuar o primeiro pagamento da 1ª tranche para dar início ao curso.</p>    
+              <p><strong class="text-danger">O curso dá-me um diploma?</strong></p>    
+              <p>Sim. O curso confere ao aluno que passe no mesmo, um diploma de participação no CTC. O diploma pode ditar um dos seguintes:</p>    
+              <p>Aluno graduado</p>    
+              <p>com ou sem estágio pratico</p>    
+              <p>e se foi obtido com mérito.</p>    
+              <p><strong class="text-danger">Posso reprovar no curso?</strong></p>    
+              <p>Caso o aluno não termine o módulo dentro do tempo predestinado de 3 meses por módulo sem justificação plausível e previamente concedida, a escola reserva-se no direito de terminar o acesso do aluno ao curso. O mesmo se passará, caso o aluno reprove duas vezes seguidas num teste teórico ou prático.</p>    
+              <p>A escola reserva-se no direito de cancelar o curso se um aluno desrespeitar a escola, causar problemas para a escola ou outros alunos, ou não quiser seguir as regras para todos os alunos.</p>
+              <p><strong class="text-danger">O que preciso para poder participar no curso?</strong></p>    
+              <p>Para poder tirar o CTC da IAAD o aluno terá obrigatoriamente que ter ou aceder a:</p>    
+              <p>. Internet</p>
+              <p>· Programa de edição de vídeos (Windows movie player ou outro simples, é suficiente)</p>
+              <p>· Máquina de filmar (ou telefone que inclua máquina de filmar)</p>
+              <p>O curso tenta dar apoio mas é da responsabilidade do aluno saber lidar com os programas e entregar os testes de acordo com as regras. Todos os testes práticos deverão ser entregues em formato MP4 via Dropbox. E os teste teóricos segundos as regras estipuladas nos documentos de início de curso.</p>
+              <p><strong class="text-danger">Quanto custa o curso?</strong></p>
+              <p>O valor total do curso é de 1200€, sendo que 300€ são pagos no acto da inscrição (módulo 1 e 2), 300€ na transição para o módulo 3, €300 na transição para o módulo 5 e os restantes 300€ na transição do módulo 8 e 9.</p>
+              <p>O valor deverá ser pago via transferência bancária ou via Paypal (caso resida no estrangeiro).</p>
+              <p>Não existirão devoluções de valores após o pagamento dos mesmos, mesmo que os alunos queiram desistir do curso. Por favor pense se este é o curso para si é um curso muito exigente e vai requisitar muito trabalho e estudo.</p>
+              <p><strong class="text-danger">Como devo proceder para me inscrever no curso?</strong></p>
+              <p>Para se inscrever no CTC da IAAD, deve enviar um e-mail para itsallaboutdogs@hotmail.com a requisitar uma ficha de inscrição.</p>
+              <p><strong class="text-danger">Que outras vantagens tenho em obter o CTC da IAAD?</strong></p>
+              <p>A IAAD é uma escola de treino e modificação comportamental muito conhecida em Portugal, onde opera há mais de 10 anos,especialmente pela sua dedicação e ética perante o uso de métodos apoiados na ciência e livres de força ou punição.</p>
+              <p>A mentora – Claudia Estanislau – e outros professores do curso detêm todos qualificações adequadas ao ensino das matérias, são anualmente avaliados pelos seus conhecimentos e detêm anos de experiência dentro das suas especializações.</p>
+              <p>Ser aluno ou graduado do CTC da IAAD é portanto para um futuro cliente a garantia que o treinador procura métodos actualizados, eficazes e humanos no treino e educação dos seus cães.</p>
+              <p>
+                <a href="http://www.facebook.com/itsallaboutdogs" class="text-danger" target="_blank">http://www.facebook.com/itsallaboutdogs</a>
+              </p>    
+              <p><strong class="text-danger">Quem é a mentora do curso Claudia Estanislau?</strong></p>
+              <p>Por favor vá a Sobre nós, treinadores e veja e analise o cv e conhecimentos da mentora do curso, para saber o grau de dificuldade esperado e para saber tambem se estará a estudar matéria atualizada.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- End of CTC Modal -->
+
+    <!-- Bootstrap JavaScript-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- End of Bootstrap JavaScript-->
+    <script src="script.js"></script>
+  </body>
 </html>
