@@ -170,6 +170,12 @@ header {
 
 /* End of Servicos */
 
+/* Video */
+#video {
+  background-color: #232323;
+}
+/* End of Video */
+
 /* Contactos */
 #contactos {
   background-color: #232323;
@@ -181,6 +187,20 @@ header {
     0 2px 10px rgba(255, 0, 0, 0.6);
 }
 /* End of Contactos */
+
+/* Social */
+#social {
+  background-color: #232323;
+}
+
+#social span {
+  font-weight: 700;
+}
+
+#social a {
+  text-decoration: none;
+}
+/* End of Social*/
 
 /* CW */
 #cw {
