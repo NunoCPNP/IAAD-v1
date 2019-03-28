@@ -41,12 +41,12 @@
               <a href="#" class="nav-link m-2 menu-item">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#quem-somos" class="nav-link m-2 menu-item"
+              <a href="#quem-somos-offset" class="nav-link m-2 menu-item"
                 >Quem Somos</a
               >
             </li>
             <li class="nav-item">
-              <a href="#servicos" class="nav-link m-2 menu-item">Serviços</a>
+              <a href="#servicos-offset" class="nav-link m-2 menu-item">Serviços</a>
             </li>
             <li class="nav-item">
               <a href="#contactos" class="nav-link m-2 menu-item">Contactos</a>
@@ -78,6 +78,9 @@
 
     <!-- History -->
     <section id="quem-somos" class="container pt-5 special">
+      <!-- Anchor offset -->
+      <a class="anchor" id="quem-somos-offset"></a>
+      <!-- End of Anchor offset-->
       <div class="row text-center">
         <h1 class="special-fix">A IT'S ALL ABOUT DOGS</h1>
         <p class="pt-5">
@@ -183,8 +186,11 @@
     </section>
     <!-- End of Team-->
 
-    <!-- Sevicos -->
+    <!-- Servicos -->
     <section id="servicos" class="container">
+      <!-- Anchor offset -->
+      <a class="anchor" id="servicos-offset"></a>
+      <!-- End of Anchor offset-->
       <div class="col text-center text-white">
         <h4 class="pt-3 pb-3 no-span">
           A IAAD actualmente ofereçe os seguintes serviços
@@ -225,7 +231,7 @@
             Medos e Fobias<br />
             Ansiedade por separação
           </p>
-          <a href="#" class="btn btn-block btn-outline-light mt-auto">Saber Mais</a>
+          <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLongEXP2">Saber Mais</a>
         </div>
         </div>
       </div>
@@ -244,7 +250,7 @@
               sem recurso a boxes <br />
               ou canis
             </p>
-            <a href="#" class="btn btn-block btn-outline-light mt-auto">Saber Mais</a>
+            <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLongEXP3">Saber Mais</a>
           </div>
         </div>
       </div>
@@ -260,10 +266,10 @@
           <p class="card-text">
             Curso de Treinador<br />
             Seminarios<br />
-            Worskshops<br />
+            Workshops<br />
             Webinarios
           </p>
-          <a href="#" class="btn btn-block btn-outline-light mt-auto"">Saber Mais</a>
+          <a href="#" class="btn btn-block btn-outline-light mt-auto" data-toggle="modal" data-target="#exampleModalLongEXP4">Saber Mais</a>
         </div>
       </div>
     </div>
@@ -289,7 +295,7 @@
       </div>
       <div class="row pt-3 pb-5">
         <form
-          class="col-lg-6 col-sm-12"
+          class="col-lg-6 col-sm-12 pt-3"
           name="contact"
           method="POST"
           data-netlify="true"
@@ -352,8 +358,14 @@
             />
           </div>
         </form>
-        <div class="col-lg-6 col-sm-12 text-center text-white">
-          teste
+        <div class="col-lg-6 col-sm-12 pt-5 pt-lg-0 text-center text-white">
+          <h4 class="text-danger"><strong>Onde Estamos</strong></h4>
+          <p>Santa Maria da Feira, São João da Madeira, Vale de Cambra, Oliveira de Azemeis, Espinho, Ovar, Esmoriz, Vila Nova de Gaia, Grande Porto, Matosinhos, Maia, Povoa de Varzim, Vila do Conde e Coimbra
+          </p>
+          <h4 class="text-danger"><strong>Contacto Telefonico</strong></h4>
+          <p>91 914 33 58</p>
+          <h4 class="text-danger"><strong>E-Mail</strong></h4>
+          <p>itsallaboutdogs@hotmail.com</p>
         </div>
       </div>
     </section>
@@ -635,6 +647,113 @@
       </div>
     </div>
     <!-- End of Treino Modal-->
+
+    <!-- Comportamento Modal -->
+    <div class="modal fade" id="exampleModalLongEXP2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">Treino</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+
+            <ul class="nav nav-tabs " id="myTab" role="tablist">
+              <li class="nav-item ">
+                <a class="nav-link text-danger active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Comportamentos Agressivos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Reactividade</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Medos e Fobias</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active pt-3" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>...</p>
+              </div>
+              <div class="tab-pane fade pt-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>...</p>
+              </div>
+              <div class="tab-pane fade pt-3" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>...</p>  
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Comportamento Modal-->
+
+    <!-- Pet-Sitting Modal -->
+    <div class="modal fade" id="exampleModalLongEXP3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">Pet-Sitting</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+            <p>...</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- End of Pet-Sitting Modal-->
+
+    <!-- Formaçao Modal -->
+    <div class="modal fade" id="exampleModalLongEXP4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-white" id="exampleModalLongTitle">Treino</h5>
+            <button type="button" class="close text-danger" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body text-white">
+
+            <ul class="nav nav-tabs " id="myTab" role="tablist">
+              <li class="nav-item ">
+                <a class="nav-link text-danger active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Curso de Treinadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Seminarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-danger" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Workshops</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active pt-3" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p>...</p>
+              </div>
+              <div class="tab-pane fade pt-3" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <p>...</p>
+              </div>
+              <div class="tab-pane fade pt-3" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <p>...</p>  
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Formaçao Modal-->
 
     <!-- Bootstrap JavaScript-->
     <script
