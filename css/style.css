@@ -155,7 +155,7 @@ header {
 }
 
 .card {
-  height: 600px;
+  height: 450px !important;
   background-color: #292929;
   color: white;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
@@ -230,6 +230,14 @@ header {
 /* Modals */
 .modal-content {
   background-color: #232323;
+}
+
+.dip-hor {
+  max-width: 300px;
+}
+
+.dip-vert {
+  max-height: 300px;
 }
 
 /* End of Modals*/
